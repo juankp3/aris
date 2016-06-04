@@ -1,7 +1,14 @@
 
 .tmp_format{
-	background: lightblue;
+	background: #fff;
 	width: 1146px;
 	margin:  0 auto;
+}
+#row_logo{
+	height: 136px;
+}
+#row_menu{
+	background: #53a0a7;
+	height: 30px;
 }
 
