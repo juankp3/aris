@@ -268,3 +268,42 @@ section.faq{
 }
 
 
+section.schedule{
+    font-family: 'MuseoSansCyrl100';
+}
+section.schedule .row{
+    padding-top: 70px;
+    display: flex;
+}
+section.schedule .row #content_schedule{
+    width: 460px;
+}
+section.schedule .row h1{
+    width: 375px;
+    text-align: right;
+    margin: 0px;
+    padding-right: 48px;
+    font-size: 40px;
+}
+section.schedule #content_schedule p{
+    width: 340px;
+    font-size: 17px;
+    color: #797BA2;
+}
+section.schedule #content_schedule span{
+    display: block;
+    color: #7981C0;
+}
+section.schedule #content_schedule input{
+    width: 100%;
+    background: #F2F2F2;
+    border: solid 1px #E3E3E3;
+}
+section.schedule #content_schedule textarea{
+    width: 100%;
+    background: #F2F2F2;
+    border: solid 1px #E3E3E3;
+}
+
+
+
