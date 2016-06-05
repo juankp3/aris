@@ -22,7 +22,6 @@
 	margin-top: 88px;
 }
 .pad_format{
-	background: #fff;
 	width: 1146px;
 	margin:  0 auto;
 }
@@ -62,7 +61,7 @@
 	text-decoration: underline;
 }
 
-
+/**
 #img_home{
 	width: 100%;
 }
@@ -76,17 +75,49 @@
 	display: flex;
   	justify-content: center;
 }
+**/
+
+h1{
+	color: #1769b1;
+	font-size: 40px;
+}
+
+/**
 #title_about{
 	color: #1769b1;
 	margin-right: 60px;
 	margin-top: -12px;
 	font-size: 40px;
 }
+**/
+
+section.about{
+	background: url("../img/about.jpg");
+    min-height: 1028px;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+section.about .row{
+	display: flex;
+}
+
+section.about .pad_format{
+	margin-top: 70px;
+}
+
+section.about .row h1{
+	width: 375px;
+	text-align: right;
+	margin: 0px;
+	padding-right: 48px;
+}
+
 #des_about{
 	color: #1769b1;
 	font-size: 17px;
-	margin-right: 60px;
-	width: 430px;
+	width: 580px;
+	padding: 0px 48px;
 }
 
 #des_about p:first-child{
