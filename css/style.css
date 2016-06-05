@@ -82,6 +82,21 @@ h1{
 	font-size: 40px;
 }
 
+section.home{
+	background: url("../img/home.jpg");
+    min-height: 860px;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+section.home div{
+	color: #FFF;
+    font-size: 45px;
+    width: 632px;
+    text-align: center;
+    margin-Top: 32px;
+}
+
 /**
 #title_about{
 	color: #1769b1;
