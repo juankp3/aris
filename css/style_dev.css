@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'MuseoSansCyrl100';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Museo Sans Cyrl 100'), url('../fonts/MuseoSans/MuseoSansCyrl.woff') format('woff');
+}
+@font-face {
+    font-family: 'GillSansLight';
+    font-style: normal;
+    font-weight: normal;
+    src: local('GillSans Light'), url('../fonts/GillSansLight/GillSansLight.woff') format('woff');
+}
 
 .row{
 	width: 100%;
@@ -64,12 +76,14 @@ section.navegation div.address{
 	font-size: 16px;
 	margin-top: 7px;
 	float: left;
+            font-family: 'MuseoSansCyrl100';
 }
 
 section.navegation nav{
 	float: right;
 	margin-right: 20px;
 	margin-top: 7px;
+            font-family: 'GillSansLight';
 }
 section.navegation nav ul{
 	list-style: none;
@@ -113,6 +127,7 @@ section.about{
 	min-height: 1028px;
 	background-repeat: no-repeat;
 	background-position: center top;
+            font-family: "MuseoSansCyrl100";
 }
 
 section.about .row{
@@ -145,6 +160,7 @@ section.services{
 	height: 940px;
 	background-size: 100% 100%;
     	background-repeat: no-repeat;
+            font-family: 'MuseoSansCyrl100';
 }
 section.services h1{
 	color: #FFF;
@@ -165,7 +181,8 @@ section.services #content_text_service div{
 
 
 #imgs_service{
-	height: 585px;
+	/*height: 585px;*/
+            text-align: center;
 }
 #imgs_service ul{
 	list-style: none;
@@ -216,6 +233,7 @@ section.faq .box_faq #accordion{
 	padding-left: 30px;
 	padding-top: 15px;
 	padding-bottom: 15px;
+            font-family: 'MuseoSansCyrl100';
 }
 #social_footer{
 	display: inline-block;
@@ -252,3 +270,50 @@ section.faq .box_faq #accordion{
    width: 1147px;
   }
 }
+
+@media (max-width: 1000px){
+ #imgs_service img{
+   width: 80%;
+  }
+}
+
+
+section.schedule{
+    font-family: 'MuseoSansCyrl100';
+}
+section.schedule .row{
+    padding-top: 70px;
+    display: flex;
+}
+section.schedule .row #content_schedule{
+    width: 460px;
+}
+section.schedule .row h1{
+    width: 375px;
+    text-align: right;
+    margin: 0px;
+    padding-right: 48px;
+    font-size: 40px;
+}
+section.schedule #content_schedule p{
+    width: 340px;
+    font-size: 17px;
+    color: #797BA2;
+}
+section.schedule #content_schedule span{
+    display: block;
+    color: #7981C0;
+}
+section.schedule #content_schedule input{
+    width: 100%;
+    background: #F2F2F2;
+    border: solid 1px #E3E3E3;
+}
+section.schedule #content_schedule textarea{
+    width: 100%;
+    background: #F2F2F2;
+    border: solid 1px #E3E3E3;
+}
+
+
+
