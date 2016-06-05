@@ -1,7 +1,7 @@
 
 $( document ).ready(function() {
 
-	$("#menu_list a").click(function() {
+	$("nav ul li a").click(function() {
 		var id = $(this).data('id');
 		if(id){
 			 $('html, body').animate({

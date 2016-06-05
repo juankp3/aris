@@ -16,36 +16,41 @@
 </head>
 <body>
 
-	<header class="container-fluid">
-		<div class="row pad_format">
+	<header>
+		<div class="row">
 			<div id="row_logo">
-				<a href="index.html"><img id="pos_logo" src="img/logo_aris.png" alt=""></a>
-				<a href="#"><img id="pos_flag" src="img/flag.png" alt=""></a>
+				<a class="logo" href="index.html">
+					<img src="img/logo_aris.png" alt="">
+				</a>
+				<div>
+					<a href="#" class="flag"><img src="img/flag.png" alt=""></a>
+					<a href="#" class="login"><img src="img/login.jpg" alt=""></a>
+				</div>
+				
 			</div>
 		</div>
 	</header>
 
-	<section class="container-fluid">
-		<div class="row bg_green">
-			<div id="row_menu" class="pad_format">
-				<div id="text_info" >Toll Free Number : 1 - 800 XRAY - 114</div>
-				<nav id="menu_list">
-					<ul>
-						<li><a href="#">HOME</a></li>
-						<li><a href="#">ABOUT US</a></li>
-						<li><a href="#">SERVICES</a></li>
-						<li><a href="#">FAQ</a></li>
-						<li><a href="#">SCHEDULE & APPOINTMENT</a></li>
-						<li><a href="#">CONTACT US</a></li>
-					</ul>
-				</nav>
+	<section class="navegation">
+		<div class="row">
+			<div class="address">Toll Free Number : 1 - 800 XRAY - 114</div>
+			<nav>
+				<ul>
+					<li><a href="#" data-id="home">HOME</a></li>
+					<li><a href="#" data-id="about">ABOUT US</a></li>
+					<li><a href="#" data-id="services">SERVICES</a></li>
+					<li><a href="faq.html">FAQ</a></li>
+					<li><a href="#" attr="">SCHEDULE & APPOINTMENT</a></li>
+					<li><a href="#" attr="">CONTACT US</a></li>
+				</ul>
+			</nav>
 			</div>
 		</div>
 	</section>
 
 
-	<section class="container-fluid faq">
-		<div class="row pad_format">
+	<section class=" faq">
+		<div class="row">
 			<div id="accordion" role="tablist" aria-multiselectable="true">
 
 			  <div class="panel panel-default">
