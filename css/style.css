@@ -4,13 +4,34 @@
 
 
 #row_logo{
-	height: 136px;
+	height: 110px;
 }
+#row_logo a.logo{
+	display: block;
+	float: left;
+}
+#row_logo div{
+	width: 300px;
+	float: right;
+}
+
+
+#row_logo div a{
+	display: block;
+    float: right;
+
+}
+
+#row_logo div a.login{
+	margin-top: 70px;
+    margin-right: 30px;
+}
+/**
 #pos_logo{
 	float: left;
 	margin-top: 25px;
-	margin-left: 20px;
 }
+
 #pos_flag{
 	float: right;
 	margin-top: 18px;
@@ -21,12 +42,26 @@
 	margin-right: 40px;
 	margin-top: 88px;
 }
+**/
 .pad_format{
 	/*width: 1146px;*/
 
 	margin:  0 auto;
 }
 
+.row{
+	width: 1146px;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+}
+
+header {
+	width: 100%;
+}
+header .row{
+	margin-top: 20px;
+}
 
 #row_menu{
 	background: #53a0a7;
@@ -213,3 +248,84 @@ section.services #content_text_service div{
 	margin-top: 40px;
 	margin-right: 60px;
 }
+
+
+/**
+header {
+	width: 100%;
+}
+header .row{
+	margin-top: 20px;
+}
+
+#row_logo{
+	height: 110px;
+}
+#row_logo a.logo{
+	display: block;
+	float: left;
+}
+#row_logo div{
+	width: 300px;
+	float: right;
+}
+
+
+#row_logo div a{
+	display: block;
+    float: right;
+
+}
+
+#row_logo div a.login{
+	margin-top: 70px;
+    margin-right: 30px;
+}
+
+
+section.navegation{
+	background: #53a0a7;
+    display: block;
+    height: 30px;
+    width: 100%;
+}
+section.navegation div{
+	color: #fff;
+	font-size: 16px;
+	float:left;
+	margin-top: 7px;
+}
+
+section.navegation nav{
+	float: right;
+	margin-right: 20px;
+	margin-top: 7px;
+}
+section.navegation nav ul{
+	list-style: none;
+	padding: 0;
+	margin:0;
+}
+section.navegation nav ul li{
+	display: inline-block;
+	margin-left: 15px;
+}
+
+section.navegation nav ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+section.navegation nav ul li a:hover{
+	text-decoration: underline;
+}
+
+
+section.faq{
+	background: url("../img/background.jpg");
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+**/

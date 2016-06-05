@@ -1,6 +1,48 @@
-section.faq{
-	background: url("../img/background.jpg");
-    min-height: 600px;
-    background-repeat: no-repeat;
-    background-position: center top;
+
+.row{
+	width: 1146px;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+}
+
+.content {
+    padding-bottom: 86px;
+}
+
+header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #000000;
+    z-index: 100;
+}
+
+header .row{
+	margin-top: 20px;
+}
+
+#row_logo{
+	height: 110px;
+}
+#row_logo a.logo{
+	display: block;
+	float: left;
+}
+#row_logo div{
+	width: 300px;
+	float: right;
+}
+
+
+#row_logo div a{
+	display: block;
+    float: right;
+
+}
+
+#row_logo div a.login{
+	margin-top: 70px;
+    margin-right: 30px;
 }
