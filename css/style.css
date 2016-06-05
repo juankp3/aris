@@ -77,35 +77,40 @@ section.home{
 
 section.home div{
 	color: #FFF;
-    font-size: 40px;
-    /*width: 632px;*/
-    text-align: center;
-    margin-top: 25px;
+	font-size: 40px;
+	/*width: 632px;*/
+	text-align: center;
+	margin-top: 25px;
 }
 
 
 
 section.about{
 	background: url("../img/about.jpg");
-    min-height: 1028px;
-    background-repeat: no-repeat;
-    background-position: center top;
+	min-height: 1028px;
+	background-repeat: no-repeat;
+	background-position: center top;
 }
 
 section.about .row{
 	display: flex;
 }
 
-section.about .pad_format{
+section.about .row .container{
 	margin-top: 70px;
 }
 
-section.about .row h1{
+/*section.about .pad_format{
+	margin-top: 70px;
+}*/
+
+section.about .row .container .row h1{
 	width: 375px;
 	text-align: right;
 	margin: 0px;
 	padding-right: 48px;
 }
+
 
 #des_about{
 	color: #1769b1;
@@ -154,9 +159,9 @@ section.services #content_text_service div{
 #imgs_service ul li{
 	float: left;
 }
-#imgs_service ul li img{
+/*#imgs_service ul li img{
 	width: 286px;
-}
+}*/
 
 
 #row_footer{
