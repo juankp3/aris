@@ -185,6 +185,16 @@ section.faq{
     background-position: center top;
 }
 
+section.faq .box_faq{
+	background: #FFF;
+	opacity: 0.5;
+	padding: 20px 10px;
+	display: block;
+}
+
+section.faq .box_faq #accordion{
+	opacity: 1;
+}
 /** footer **/
 #row_footer{
 	height: 160px;
