@@ -62,21 +62,6 @@
 	text-decoration: underline;
 }
 
-/**
-#img_home{
-	width: 100%;
-}
-
-
-#content_text_about{
-	position: absolute;
-	width: 100%;
-	margin-top: 62px;
-
-	display: flex;
-  	justify-content: center;
-}
-**/
 
 h1{
 	color: #1769b1;
@@ -98,14 +83,7 @@ section.home div{
     margin-Top: 32px;
 }
 
-/**
-#title_about{
-	color: #1769b1;
-	margin-right: 60px;
-	margin-top: -12px;
-	font-size: 40px;
-}
-**/
+
 
 section.about{
 	background: url("../img/about.jpg");
