@@ -86,6 +86,11 @@
 	color: #1769b1;
 	font-size: 17px;
 	margin-right: 60px;
+	width: 430px;
+}
+
+#des_about p:first-child{
+	margin-top: 0px;
 }
 
 
