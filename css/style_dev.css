@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Museo Sans Cyrl 100';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Museo Sans Cyrl 100'), url('../fonts/MuseoSans/MuseoSansCyrl.woff') format('woff');
+}
 
 .row{
 	width: 100%;
