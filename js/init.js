@@ -11,6 +11,11 @@ $( document ).ready(function() {
 		
 	});
 
+	$("#accordion a").click(function(){
+		$("#accordion .panel-heading").removeClass('active');
+		$(this).parent().parent().addClass('active');
+	});
+
 });
 
 

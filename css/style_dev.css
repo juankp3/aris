@@ -1,15 +1,3 @@
-@font-face {
-    font-family: 'MuseoSansCyrl100';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Museo Sans Cyrl 100'), url('../fonts/MuseoSans/MuseoSansCyrl.woff') format('woff');
-}
-@font-face {
-    font-family: 'GillSansLight';
-    font-style: normal;
-    font-weight: normal;
-    src: local('GillSans Light'), url('../fonts/GillSansLight/GillSansLight.woff') format('woff');
-}
 
 .row{
 	width: 100%;
@@ -76,14 +64,12 @@ section.navegation div.address{
 	font-size: 16px;
 	margin-top: 7px;
 	float: left;
-            font-family: 'MuseoSansCyrl100';
 }
 
 section.navegation nav{
 	float: right;
 	margin-right: 20px;
 	margin-top: 7px;
-            font-family: 'GillSansLight';
 }
 section.navegation nav ul{
 	list-style: none;
@@ -127,7 +113,6 @@ section.about{
 	min-height: 1028px;
 	background-repeat: no-repeat;
 	background-position: center top;
-            font-family: "MuseoSansCyrl100";
 }
 
 section.about .row{
@@ -160,7 +145,6 @@ section.services{
 	height: 940px;
 	background-size: 100% 100%;
     	background-repeat: no-repeat;
-            font-family: 'MuseoSansCyrl100';
 }
 section.services h1{
 	color: #FFF;
@@ -181,8 +165,7 @@ section.services #content_text_service div{
 
 
 #imgs_service{
-	/*height: 585px;*/
-            text-align: center;
+	height: 585px;
 }
 #imgs_service ul{
 	list-style: none;
@@ -203,15 +186,102 @@ section.faq{
 }
 
 section.faq .box_faq{
-	background: #FFF;
-	opacity: 0.5;
-	padding: 20px 10px;
+	/**background: url("../img/bg_transparent.png");**/
+	/**padding: 1px 60px 10px;**/
+	padding: 1px 0px 10px;
+    display: block;
+    margin-top: 50px;
+}
+
+section.faq .box_faq h1{
+	background: url("../img/bg_transparent.png");
+	margin: 0;
+    padding: 20px 50px;
+}
+
+section.faq .box_faq #accordion h4.panel-title a{
+	display: block;
+	/**color: #b32c32;**/
+	color: #000;
+	font-size: 17px;
+	text-decoration: none;
+}
+
+section.faq .box_faq #accordion h4.panel-title a:hover, section.faq .box_faq #accordion h4.panel-title a:visited {
+	text-decoration: none;
+}
+
+section.faq .box_faq #accordion .panel.panel-default{
+	background: url("../img/bg_transparent.png");
+	/**background: transparent;**/
+	margin-bottom: 0px;
+	border-radius: none;
+	border: 0px;
+	border-radius: 0px;
+}
+
+.bg_white{
+	background: url("../img/bg_transparent.png");
+	height: 50px;
+}
+
+section.faq .box_faq #accordion .panel-heading{
+	background: none;
+	/**background: url("../img/bg_transparent.png");**/
+	/**background: #FFF;**/
+	border: none;
+	padding: 0px 50px;
+}
+
+/**
+section.faq .box_faq #accordion div.panel:last-child .panel-heading{
+	padding: 0px 50px 60px;
+}
+
+section.faq .box_faq #accordion div.panel:last-child .panel-heading h4{
+	border: none;
+}
+**/
+#accordion{
+	padding: 0px;
+	margin: 0px;
+}
+
+#accordion .panel.panel-default{
+
+}
+#accordion .panel.panel-default h4.panel-title{
+	border-bottom: 1px #a5a4a4 solid;
+	
+}
+section.faq .box_faq #accordion h4.panel-title a{
+	padding: 20px 5px;
 	display: block;
 }
 
-section.faq .box_faq #accordion{
-	opacity: 1;
+#accordion .panel-collapse{
+	background: #FFF;
+	padding: 0px 55px 20px 55px;
 }
+
+
+
+section.faq .box_faq #accordion h4.panel-title a[aria-expanded="true"]{
+	color: #cd333a;
+}
+section.faq .box_faq #accordion .panel-heading.active{
+	background: #FFF;
+}
+section.faq .box_faq #accordion .panel-heading.active h4{
+	border: 0px;
+}
+
+
+/**
+li.tree-parent[aria-expanded="true"] {
+	color: #b32c32;
+}
+**/
 /** footer **/
 #row_footer{
 	height: 160px;
@@ -233,7 +303,6 @@ section.faq .box_faq #accordion{
 	padding-left: 30px;
 	padding-top: 15px;
 	padding-bottom: 15px;
-            font-family: 'MuseoSansCyrl100';
 }
 #social_footer{
 	display: inline-block;
@@ -270,50 +339,3 @@ section.faq .box_faq #accordion{
    width: 1147px;
   }
 }
-
-@media (max-width: 1000px){
- #imgs_service img{
-   width: 80%;
-  }
-}
-
-
-section.schedule{
-    font-family: 'MuseoSansCyrl100';
-}
-section.schedule .row{
-    padding-top: 70px;
-    display: flex;
-}
-section.schedule .row #content_schedule{
-    width: 460px;
-}
-section.schedule .row h1{
-    width: 375px;
-    text-align: right;
-    margin: 0px;
-    padding-right: 48px;
-    font-size: 40px;
-}
-section.schedule #content_schedule p{
-    width: 340px;
-    font-size: 17px;
-    color: #797BA2;
-}
-section.schedule #content_schedule span{
-    display: block;
-    color: #7981C0;
-}
-section.schedule #content_schedule input{
-    width: 100%;
-    background: #F2F2F2;
-    border: solid 1px #E3E3E3;
-}
-section.schedule #content_schedule textarea{
-    width: 100%;
-    background: #F2F2F2;
-    border: solid 1px #E3E3E3;
-}
-
-
-
