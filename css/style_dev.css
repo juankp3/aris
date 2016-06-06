@@ -12,7 +12,7 @@
 }
 
 .row{
-	width: 100%;
+    width: 100%;
     height: auto;
     position: relative;
     margin: 0 auto;
@@ -268,46 +268,76 @@ section.faq{
 }
 
 
+
+
+
+
+
+
 section.schedule{
     font-family: 'MuseoSansCyrl100';
 }
 section.schedule .row{
+    width: auto;
     padding-top: 70px;
     display: flex;
 }
 section.schedule .row #content_schedule{
     width: 460px;
 }
-section.schedule .row h1{
-    width: 375px;
-    text-align: right;
-    margin: 0px;
-    padding-right: 48px;
+#title_schedule{
+    background: url(../img/schedule.jpg) no-repeat center top;
+    background-size: 100% 90%;
+}
+#title_schedule h1{
+    color: #1769b1;
     font-size: 40px;
+    width: 360px;
+    text-align: right;
+    float: right;
+    padding: 0;
+    margin: 0;
 }
 section.schedule #content_schedule p{
     width: 340px;
     font-size: 17px;
-    color: #797BA2;
-    margin-bottom: 20px;
+    color: #1769b1;
+    margin-bottom: 10px;
 }
 section.schedule #content_schedule span{
     display: block;
     color: #7981C0;
+    margin-top: 10px;
     margin-bottom: 6px;
 }
-section.schedule #content_schedule input{
+section.schedule #content_schedule input[type="text"]{
     width: 100%;
     background: #F2F2F2;
     border: solid 1px #E3E3E3;
-    margin-bottom: 14px;
     padding: 2px 5px;
+}
+section.schedule #content_schedule input[type="checkbox"]{
+    margin: 5px 5px 0 0;
 }
 section.schedule #content_schedule textarea{
     width: 100%;
     background: #F2F2F2;
     border: solid 1px #E3E3E3;
 }
+
+.c_red{
+   color: #FF0100 ;
+}
+
+.btnschedule{
+    background: #97A8C4;
+    border: none;
+    color: #fff;
+    border-radius: 2px;
+    margin-top:40px;
+    float: right;
+}
+
 
 
 
