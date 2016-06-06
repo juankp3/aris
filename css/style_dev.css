@@ -106,10 +106,18 @@ section.navegation nav ul li a:hover{
 
 
 section.home{
+	/**
     background: url("../img/home.jpg");
     min-height: 860px;
     background-repeat: no-repeat;
     background-position: center top;
+	**/
+    background: url("../img/home.jpg") no-repeat center top; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 860px;
 }
 
 section.home div{
@@ -123,10 +131,19 @@ section.home div{
 }
 
 section.about{
-	background: url("../img/about.jpg");
+	/**background: url("../img/about.jpg");
 	min-height: 1028px;
 	background-repeat: no-repeat;
 	background-position: center top;
+	background-size: 100% 100%;
+	**/
+
+  background: url("../img/about.jpg") no-repeat center top; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 1028px;
 }
 
 section.about .row{
@@ -157,10 +174,19 @@ section.about .row h1{
 
 
 section.services{
+	/**
 	background: url(../img/bg_service.jpg) no-repeat;
 	height: 940px;
 	background-size: 100% 100%;
-    	background-repeat: no-repeat;
+    background-repeat: no-repeat;
+	**/
+	background: url("../img/bg_service.jpg") no-repeat center top; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 940px;
+
 }
 section.services h1{
 	color: #FFF;
