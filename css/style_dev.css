@@ -451,7 +451,7 @@ section.schedule #content_schedule textarea{
     font-family: 'MuseoSansCyrl100';
     margin-top: 10px;
 }
-#row_social .text:focus{
+#formQuestion .text:focus{
 	outline:0px;
 }
 
