@@ -1,4 +1,15 @@
-
+@font-face {
+    font-family: 'MuseoSansCyrl100';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Museo Sans Cyrl 100'), url('../fonts/MuseoSans/MuseoSansCyrl.woff') format('woff');
+}
+@font-face {
+    font-family: 'GillSansLight';
+    font-style: normal;
+    font-weight: normal;
+    src: local('GillSans Light'), url('../fonts/GillSansLight/GillSansLight.woff') format('woff');
+}
 .row{
     width: 100%;
     height: auto;
@@ -64,12 +75,14 @@ section.navegation div.address{
 	font-size: 16px;
 	margin-top: 7px;
 	float: left;
+            font-family: 'MuseoSansCyrl100';
 }
 
 section.navegation nav{
 	float: right;
 	margin-right: 20px;
 	margin-top: 7px;
+            font-family: 'GillSansLight';
 }
 section.navegation nav ul{
 	list-style: none;
@@ -93,19 +106,20 @@ section.navegation nav ul li a:hover{
 
 
 section.home{
-	background: url("../img/home.jpg");
+    background: url("../img/home.jpg");
     min-height: 860px;
     background-repeat: no-repeat;
     background-position: center top;
 }
 
 section.home div{
-	color: #FFF;
+    color: #FFF;
     font-size: 40px;
     width: 632px;
     text-align: center;
     margin: 0 auto;
     padding-top: 75px;
+    font-family: 'MuseoSansCyrl100';
 }
 
 section.about{
@@ -125,6 +139,7 @@ section.about .row h1{
 	text-align: right;
 	margin: 0px;
 	padding-right: 48px;
+            font-family: 'MuseoSansCyrl100';
 }
 
 
@@ -133,6 +148,7 @@ section.about .row h1{
 	font-size: 17px;
 	width: 580px;
 	padding: 0px 48px;
+            font-family: 'MuseoSansCyrl100';
 }
 
 #des_about p:first-child{
