@@ -252,7 +252,7 @@ section.faq .box_faq #accordion div.panel:last-child .panel-heading h4{
 }
 #accordion .panel.panel-default h4.panel-title{
 	border-bottom: 1px #a5a4a4 solid;
-	
+
 }
 section.faq .box_faq #accordion h4.panel-title a{
 	padding: 20px 5px;
@@ -338,9 +338,6 @@ li.tree-parent[aria-expanded="true"] {
  .row{
    width: 1147px;
   }
-<<<<<<< HEAD
-}
-=======
 }
 
 @media (max-width: 1000px){
