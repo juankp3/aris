@@ -55,6 +55,16 @@
 		font-weight: bold;
 		cursor: pointer;
 		}
+
+	.reveal-modal button{
+		    border: 1px #0E70B7 solid;
+		    border-radius: 4px;
+		    background: #fff;
+		    color: #0E70B7;
+		    padding: 2px 15px
+	}
+
+
 	/*
 
 	NOTES
