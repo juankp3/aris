@@ -474,4 +474,14 @@ section.schedule #content_schedule textarea{
     padding: 10px 0;
     border-bottom: solid 1px #0E70B7;
 }
-
+#row_question textarea{
+    width: 100%;
+    height: 100px;
+    padding:  10px 20px;
+    border-bottom: solid 1px #0E70B7;
+}
+#row_email input{
+    width: 100%;
+    padding:  8px 20px;
+    border: none;
+}

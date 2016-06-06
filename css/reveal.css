@@ -18,8 +18,12 @@
 		visibility: hidden;
 		top: 100px;
 		left: 50%;
-		margin-left: -300px;
-		width: 520px;
+
+		/*margin-left: -300px;
+		width: 520px;*/
+		margin-left: -250px;
+		width: 420px;
+
 		background: #fff url(modal-gloss.png) no-repeat -200px -80px;
 		position: absolute;
 		z-index: 101;
