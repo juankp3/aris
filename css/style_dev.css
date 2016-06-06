@@ -165,12 +165,14 @@ section.services{
 section.services h1{
 	color: #FFF;
 	padding-right: 48px;
+            font-family: 'MuseoSansCyrl100';
 }
 section.services #content_text_service div{
 	border-left: solid 1px #fff;
 	padding-top: 36px;
 	padding-bottom: 36px;
 	padding-left: 48px;
+            font-family: 'MuseoSansCyrl100';
 }
 #content_text_service{
 	display: flex;
@@ -319,6 +321,7 @@ li.tree-parent[aria-expanded="true"] {
 	padding-left: 30px;
 	padding-top: 15px;
 	padding-bottom: 15px;
+            font-family: 'MuseoSansCyrl100';
 }
 #social_footer{
 	display: inline-block;
