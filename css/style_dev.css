@@ -1,6 +1,17 @@
-
+@font-face {
+    font-family: 'MuseoSansCyrl100';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Museo Sans Cyrl 100'), url('../fonts/MuseoSans/MuseoSansCyrl.woff') format('woff');
+}
+@font-face {
+    font-family: 'GillSansLight';
+    font-style: normal;
+    font-weight: normal;
+    src: local('GillSans Light'), url('../fonts/GillSansLight/GillSansLight.woff') format('woff');
+}
 .row{
-	width: 100%;
+    width: 100%;
     height: auto;
     position: relative;
     margin: 0 auto;
@@ -64,12 +75,14 @@ section.navegation div.address{
 	font-size: 16px;
 	margin-top: 7px;
 	float: left;
+            font-family: 'MuseoSansCyrl100';
 }
 
 section.navegation nav{
 	float: right;
 	margin-right: 20px;
 	margin-top: 7px;
+            font-family: 'GillSansLight';
 }
 section.navegation nav ul{
 	list-style: none;
@@ -93,19 +106,20 @@ section.navegation nav ul li a:hover{
 
 
 section.home{
-	background: url("../img/home.jpg");
+    background: url("../img/home.jpg");
     min-height: 860px;
     background-repeat: no-repeat;
     background-position: center top;
 }
 
 section.home div{
-	color: #FFF;
+    color: #FFF;
     font-size: 40px;
     width: 632px;
     text-align: center;
     margin: 0 auto;
     padding-top: 75px;
+    font-family: 'MuseoSansCyrl100';
 }
 
 section.about{
@@ -125,6 +139,7 @@ section.about .row h1{
 	text-align: right;
 	margin: 0px;
 	padding-right: 48px;
+            font-family: 'MuseoSansCyrl100';
 }
 
 
@@ -133,6 +148,7 @@ section.about .row h1{
 	font-size: 17px;
 	width: 580px;
 	padding: 0px 48px;
+            font-family: 'MuseoSansCyrl100';
 }
 
 #des_about p:first-child{
@@ -149,12 +165,14 @@ section.services{
 section.services h1{
 	color: #FFF;
 	padding-right: 48px;
+            font-family: 'MuseoSansCyrl100';
 }
 section.services #content_text_service div{
 	border-left: solid 1px #fff;
 	padding-top: 36px;
 	padding-bottom: 36px;
 	padding-left: 48px;
+            font-family: 'MuseoSansCyrl100';
 }
 #content_text_service{
 	display: flex;
@@ -252,7 +270,7 @@ section.faq .box_faq #accordion div.panel:last-child .panel-heading h4{
 }
 #accordion .panel.panel-default h4.panel-title{
 	border-bottom: 1px #a5a4a4 solid;
-	
+
 }
 section.faq .box_faq #accordion h4.panel-title a{
 	padding: 20px 5px;
@@ -303,6 +321,7 @@ li.tree-parent[aria-expanded="true"] {
 	padding-left: 30px;
 	padding-top: 15px;
 	padding-bottom: 15px;
+            font-family: 'MuseoSansCyrl100';
 }
 #social_footer{
 	display: inline-block;
@@ -338,9 +357,6 @@ li.tree-parent[aria-expanded="true"] {
  .row{
    width: 1147px;
   }
-<<<<<<< HEAD
-}
-=======
 }
 
 @media (max-width: 1000px){
@@ -350,46 +366,76 @@ li.tree-parent[aria-expanded="true"] {
 }
 
 
+
+
+
+
+
+
 section.schedule{
     font-family: 'MuseoSansCyrl100';
 }
 section.schedule .row{
+    width: auto;
     padding-top: 70px;
     display: flex;
 }
 section.schedule .row #content_schedule{
     width: 460px;
 }
-section.schedule .row h1{
-    width: 375px;
-    text-align: right;
-    margin: 0px;
-    padding-right: 48px;
+#title_schedule{
+    background: url(../img/schedule.jpg) no-repeat center top;
+    background-size: 100% 90%;
+}
+#title_schedule h1{
+    color: #1769b1;
     font-size: 40px;
+    width: 360px;
+    text-align: right;
+    float: right;
+    padding: 0;
+    margin: 0;
 }
 section.schedule #content_schedule p{
     width: 340px;
     font-size: 17px;
-    color: #797BA2;
-    margin-bottom: 20px;
+    color: #1769b1;
+    margin-bottom: 10px;
 }
 section.schedule #content_schedule span{
     display: block;
     color: #7981C0;
+    margin-top: 10px;
     margin-bottom: 6px;
 }
-section.schedule #content_schedule input{
+section.schedule #content_schedule input[type="text"]{
     width: 100%;
     background: #F2F2F2;
     border: solid 1px #E3E3E3;
-    margin-bottom: 14px;
     padding: 2px 5px;
+}
+section.schedule #content_schedule input[type="checkbox"]{
+    margin: 5px 5px 0 0;
 }
 section.schedule #content_schedule textarea{
     width: 100%;
     background: #F2F2F2;
     border: solid 1px #E3E3E3;
 }
+
+.c_red{
+   color: #FF0100 ;
+}
+
+.btnschedule{
+    background: #97A8C4;
+    border: none;
+    color: #fff;
+    border-radius: 2px;
+    margin-top:40px;
+    float: right;
+}
+
 
 
 
