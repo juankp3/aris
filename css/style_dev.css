@@ -436,6 +436,42 @@ section.schedule #content_schedule textarea{
     float: right;
 }
 
-
-
+/* Contact */
+#row_head_contact{
+   /width: 100%;
+    text-align: center;
+    padding: 15px 0 20px 0;
+    border-bottom: solid 1px #0E70B7;
+}
+#row_head_contact img{
+    width: 50%;
+}
+#row_social p{
+    font-size: 16px;
+    font-family: 'MuseoSansCyrl100';
+    margin-top: 10px;
+}
+#row_social{
+    text-align: center;
+    border-bottom: solid 1px #0E70B7;
+    padding-bottom: 20px;
+}
+#row_social ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#row_social li{
+    display: inline-block;
+    margin: 0 5px;
+}
+#row_social li a{}
+#row_social li a img{
+    height: 60px;
+}
+#row_info{
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: solid 1px #0E70B7;
+}
 
