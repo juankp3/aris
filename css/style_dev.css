@@ -451,6 +451,10 @@ section.schedule #content_schedule textarea{
     font-family: 'MuseoSansCyrl100';
     margin-top: 10px;
 }
+#row_social .text:focus{
+	outline:0px;
+}
+
 #row_social{
     text-align: center;
     border-bottom: solid 1px #0E70B7;
@@ -465,7 +469,10 @@ section.schedule #content_schedule textarea{
     display: inline-block;
     margin: 0 5px;
 }
-#row_social li a{}
+#row_social li a{
+	display: block;
+}
+
 #row_social li a img{
     height: 60px;
 }
