@@ -106,11 +106,12 @@ section.navegation nav ul li a:hover{
 
 
 section.home{
-    background: url("../img/home.jpg") 100%;
-    min-height: 860px;
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: cover;
+    background: url("../img/home.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 860px;
 }
 
 section.home div{
@@ -124,11 +125,12 @@ section.home div{
 }
 
 section.about{
-	background: url("../img/about.jpg") 100%;
-	min-height: 1028px;
-	background-repeat: no-repeat;
-	background-position: center top;
-	background-size: cover;
+  background: url("../img/about.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 1028px;
 }
 
 section.about .row{
@@ -148,10 +150,28 @@ section.about .row h1{
 #des_about{
 	color: #1769b1;
 	font-size: 17px;
-	width: 580px;
+	/*width: 580px;*/
+	width: 586px;
 	padding: 0px 48px;
             font-family: 'MuseoSansCyrl100';
+
+            height: 230px;
+    	overflow: auto;
 }
+
+/*
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-track{
+  background:transparent;
+}
+::-webkit-scrollbar-thumb{
+  background: #1769b1;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+*/
 
 #des_about p:first-child{
 	margin-top: 0px;
@@ -159,10 +179,19 @@ section.about .row h1{
 
 
 section.services{
+	/**
 	background: url(../img/bg_service.jpg) no-repeat;
 	height: 940px;
 	background-size: 100% 100%;
-    	background-repeat: no-repeat;
+    background-repeat: no-repeat;
+	**/
+	background: url("../img/bg_service.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 940px;
+
 }
 section.services h1{
 	color: #FFF;
@@ -386,7 +415,7 @@ section.schedule .row #content_schedule{
     width: 460px;
 }
 #title_schedule{
-    background: url(../img/schedule.jpg) no-repeat center top;
+    background: url(../img/schedule.png) no-repeat center top;
     background-size: 100% 90%;
 }
 #title_schedule h1{
