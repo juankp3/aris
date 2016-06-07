@@ -259,6 +259,11 @@ section.services #content_text_service div{
 #block_03{ background: url(../img/imgs_service_3.jpg);}
 #block_04{ background: url(../img/imgs_service_4.jpg);}
 
+#block_01.active{ background: url(../img/imgs_service_1a.jpg);}
+#block_02.active{ background: url(../img/imgs_service_2a.jpg);}
+#block_03.active{ background: url(../img/imgs_service_3a.jpg);}
+#block_04.active{ background: url(../img/imgs_service_4a.jpg);}
+
 
 
 section.faq{
