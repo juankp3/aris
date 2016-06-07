@@ -197,18 +197,49 @@
 
 
 <script>
+	var img = ["imgs_service_1a.jpg", "imgs_service_2a.jpg", "imgs_service_3a.jpg", "imgs_service_4a.jpg"];
 
-	intervalo_01(4000);
-	intervalo_02();
-	intervalo_03();
-	intervalo_04();
 
-	function intervalo_01(time){
+	intervalo_01();
+	//intervalo_02();
+	//intervalo_03();
+	//intervalo_04();
+
+
+
+
+	function intervalo_01(){
+		var cont = 0;
+		$("#imgs_service div").each(function(index, el) {
+			var id = $(this).attr('id');
+			
+			console.log(img[cont]);
+			
+
+			setInterval( function(){
+				if(cont==3){
+					cont = 0;
+				}
+				console.log(cont)
+				$("#"+id).css('backgroundImage', 'url(img/'+img[cont]+')' );
+				cont++;
+			}, 400* (cont+1));
+			//8000
+			
+
+			console.log(id);
+			
+		})
+		/**
 		setInterval( function(){
 			$("#block_01").css('backgroundImage', 'url(img/imgs_service_1a.jpg)' );
 		}, time);
+		**/
+
+
 	}
 
+	/**
 	function intervalo_02(){
 		setInterval( function(){
 			$("#block_02").css('backgroundImage', 'url(img/imgs_service_2a.jpg)' );
@@ -226,6 +257,7 @@
 			$("#block_04").css('backgroundImage', 'url(img/imgs_service_4a.jpg)' );
 		}, 16000);
 	}
+	**/
 
 
 </script>
