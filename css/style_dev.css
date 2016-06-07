@@ -103,6 +103,13 @@ section.navegation nav ul li a{
 section.navegation nav ul li a:hover{
 	text-decoration: underline;
 }
+section.navegation nav ul li a:active, section.navegation nav ul li a:focus {
+   width:0;
+   height:0;
+   outline:0; /* Para los navegadores que lo entienden */
+}
+
+
 
 
 section.home{
@@ -258,6 +265,9 @@ section.faq .box_faq #accordion h4.panel-title a{
 
 section.faq .box_faq #accordion h4.panel-title a:hover, section.faq .box_faq #accordion h4.panel-title a:visited {
 	text-decoration: none;
+}
+section.faq .box_faq #accordion h4.panel-title a:active, section.faq .box_faq #accordion h4.panel-title a:focus {
+	   outline:0; /* Para los navegadores que lo entienden */
 }
 
 section.faq .box_faq #accordion .panel.panel-default{
