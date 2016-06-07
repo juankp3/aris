@@ -126,16 +126,17 @@ section.navegation nav ul li a{
 section.navegation nav ul li a:hover{
 	text-decoration: underline;
 }
+section.navegation nav ul li a:active, section.navegation nav ul li a:focus {
+   width:0;
+   height:0;
+   outline:0; /* Para los navegadores que lo entienden */
+}
+
+
 
 
 section.home{
-	/**
-    background: url("../img/home.jpg");
-    min-height: 860px;
-    background-repeat: no-repeat;
-    background-position: center top;
-	**/
-    background: url("../img/home.jpg") no-repeat center top; 
+    background: url("../img/home.jpg") no-repeat center top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -154,14 +155,7 @@ section.home div{
 }
 
 section.about{
-	/**background: url("../img/about.jpg");
-	min-height: 1028px;
-	background-repeat: no-repeat;
-	background-position: center top;
-	background-size: 100% 100%;
-	**/
-
-  background: url("../img/about.jpg") no-repeat center top; 
+  background: url("../img/about.jpg") no-repeat center top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -186,10 +180,28 @@ section.about .row h1{
 #des_about{
 	color: #1769b1;
 	font-size: 17px;
-	width: 580px;
+	/*width: 580px;*/
+	width: 586px;
 	padding: 0px 48px;
             font-family: 'MuseoSansCyrl100';
+
+            height: 230px;
+    	overflow: auto;
 }
+
+/*
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-track{
+  background:transparent;
+}
+::-webkit-scrollbar-thumb{
+  background: #1769b1;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+*/
 
 #des_about p:first-child{
 	margin-top: 0px;
@@ -203,7 +215,7 @@ section.services{
 	background-size: 100% 100%;
     background-repeat: no-repeat;
 	**/
-	background: url("../img/bg_service.jpg") no-repeat center top; 
+	background: url("../img/bg_service.jpg") no-repeat center top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -276,6 +288,9 @@ section.faq .box_faq #accordion h4.panel-title a{
 
 section.faq .box_faq #accordion h4.panel-title a:hover, section.faq .box_faq #accordion h4.panel-title a:visited {
 	text-decoration: none;
+}
+section.faq .box_faq #accordion h4.panel-title a:active, section.faq .box_faq #accordion h4.panel-title a:focus {
+	   outline:0; /* Para los navegadores que lo entienden */
 }
 
 section.faq .box_faq #accordion .panel.panel-default{
@@ -433,7 +448,7 @@ section.schedule .row #content_schedule{
     width: 460px;
 }
 #title_schedule{
-    background: url(../img/schedule.jpg) no-repeat center top;
+    background: url(../img/schedule.png) no-repeat center top;
     background-size: 100% 90%;
 }
 #title_schedule h1{
