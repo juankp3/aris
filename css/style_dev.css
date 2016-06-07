@@ -222,15 +222,19 @@ section.services #content_text_service div{
 
 #imgs_service{
 	height: 585px;
+	display: flex;
 }
-#imgs_service ul{
-	list-style: none;
+.block_img_service{
+	background: green;
+	width: 25%;
+	display: inline-block;
 	padding: 0;
-	margin: 0;
+	margin:0;
 }
-#imgs_service ul li{
-	float: left;
-}
+#block_01{ background: url(../img/imgs_service_1.jpg);}
+#block_02{ background: url(../img/imgs_service_2.jpg);}
+#block_03{ background: url(../img/imgs_service_3.jpg);}
+#block_04{ background: url(../img/imgs_service_4.jpg);}
 
 
 

@@ -76,41 +76,6 @@
 					We pride ourselves on quality service, speed and
 					efficiency on all our mobile imaging services.
 				</p>
-
-
-
-
-
-				<p>
-					We employs highly qualified Board Certified Radiologist,
-					Board certified Cardiologist and Certified Radiology
-					Technologist (ARRT) (ARDM). Our commitment is to
-					provide you with the highest quality imaging service.
-				</p>
-				<p>
-					Our caring team upholds the highest moral and ethical
-					standards and we treat our patients with love and care
-					offering them an exceptional level of comfort.
-					We pride ourselves on quality service, speed and
-					efficiency on all our mobile imaging services.
-				</p>
-<p>
-					We employs highly qualified Board Certified Radiologist,
-					Board certified Cardiologist and Certified Radiology
-					Technologist (ARRT) (ARDM). Our commitment is to
-					provide you with the highest quality imaging service.
-				</p>
-				<p>
-					Our caring team upholds the highest moral and ethical
-					standards and we treat our patients with love and care
-					offering them an exceptional level of comfort.
-					We pride ourselves on quality service, speed and
-					efficiency on all our mobile imaging services.
-				</p>
-
-
-
-
 			</div>
 		</div>
 	</section>
@@ -123,7 +88,13 @@
 				<div>24 hours a days, 7 days a week and 365 days a year including major holidays.</div>
 			</div>
 			<div id="imgs_service">
-				<img src="img/services.jpg" alt="">
+				<!--<img src="img/services.jpg" alt="">-->
+
+				<div id="block_01" class="block_img_service"></div>
+				<div id="block_02" class="block_img_service"></div>
+				<div id="block_03" class="block_img_service"></div>
+				<div id="block_04" class="block_img_service"></div>
+
 			</div>
 		</div>
 	</section>
@@ -205,5 +176,18 @@
 		cursorborderradius:"5px"
 	    });
 	});
+
+
+
+	intervalo_01();
+
+	function intervalo_01(){
+		setInterval( function(){
+			$("#block_01").css('backgroundImage', 'url(img/imgs_service_1a.jpg)' );
+		}, 4000);
+
+	}
+
+
 </script>
 
