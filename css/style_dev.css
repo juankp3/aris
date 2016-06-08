@@ -159,36 +159,17 @@ section.home .content_pc{
     width: 610px;
     height: 503px;
     margin: 74px auto 0 auto;
-    padding-top: 22px;
+    padding-top: 24px;
     background: url(../img/pc.png) no-repeat;
 }
 
 
 .pc{
-    width: 562px;
+    width: 560px;
     height: 318px;
-
-    background: url(../img/fotopc01.jpg) no-repeat;
-    background-size: cover;
     margin: 0 auto;
+    background: #000;
 }
-
-/*  ------------   slider ---------------   */
-/*
-/*
-.slides_container {
-	width:800px;
-	display:none;
-}
-.slides_container div {
-	width: 696px;
-	height: 318px;
-	display:block;
-}*/
-/*  --------------------------------------------   */
-
-
-
 
 section.about{
   background: url("../img/about.jpg") no-repeat center top;
