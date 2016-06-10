@@ -8,7 +8,7 @@ $( document ).ready(function() {
 			        scrollTop: $("."+id).offset().top
 			    }, 500);
 		}
-		
+
 	});
 
 	$("#accordion a").click(function(){
@@ -31,7 +31,6 @@ $( document ).ready(function() {
     	background:"#999999",
     	autohidemode:false
     });
-
 
 
 });

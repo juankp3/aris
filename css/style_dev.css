@@ -163,13 +163,38 @@ section.home .content_pc{
     background: url(../img/pc.png) no-repeat;
 }
 
-
 .pc{
     width: 560px;
     height: 318px;
     margin: 0 auto;
     background: #000;
 }
+
+
+/*
+#slider{
+      width: 550px;
+          height: 310px;
+      overflow: hidden;
+    }
+#slider ul, #slider li,
+#slider2 ul, #slider2 li{
+  margin:0;
+  padding:0;
+  list-style:none;
+  }
+#slider li, #slider2 li{
+  width: 696px;
+      height: 318px;
+  overflow:hidden;
+}*/
+
+
+
+
+
+
+
 
 section.about{
   background: url("../img/about.jpg") no-repeat center top;
@@ -526,6 +551,10 @@ section.schedule #content_schedule textarea{
     float: right;
 }
 
+
+
+
+
 /* Contact */
 #row_head_contact{
    /width: 100%;
@@ -576,6 +605,9 @@ section.schedule #content_schedule textarea{
     height: 100px;
     padding:  10px 20px;
     border-bottom: solid 1px #0E70B7;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
 }
 #row_email input{
     width: 100%;
@@ -585,4 +617,64 @@ section.schedule #content_schedule textarea{
 #row_btn_contact{
     text-align: right;
     padding: 10px 10px 10px 0;
+}
+#row_btn_contact button{
+    border: 1px #0E70B7 solid;
+    border-radius: 4px;
+    background: #fff;
+    color: #0E70B7;
+    padding: 2px 15px;
+
+}
+
+
+.hide{
+  display: none;
+}
+.modalDialog {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 99999;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  /*
+  pointer-events: none;
+  opacity:0;
+  */
+ }
+  .modalDialog:target {
+  /*
+  opacity:0;
+  pointer-events: auto;
+  */
+}
+.modalDialog > div {
+width: 420px;
+position: relative;
+margin: 4% auto;
+border-radius: 4px;
+background: #fff;
+font-family: 'MuseoSansCyrl100';
+border:solid 6px #0E70B7;
+}
+.close {
+color: #000;
+opacity: .5;
+line-height: 25px;
+position: absolute;
+right: 3px;
+text-align: center;
+top: 1px;
+width: 24px;
+font-weight: bold;
+border: none;
+font-size: 22px;
+}
+.close:hover {
+text-decoration: underline;
 }
