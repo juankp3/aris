@@ -31,10 +31,10 @@ $( document ).ready(function() {
     	background:"#999999",
     	autohidemode:false
     });
-
-
-
 });
+
+
+
 
 
 //$('.collapse').collapse('hide');

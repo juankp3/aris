@@ -586,3 +586,13 @@ section.schedule #content_schedule textarea{
     text-align: right;
     padding: 10px 10px 10px 0;
 }
+
+.error{
+    color: red;
+    margin-left: 15px;
+}
+
+.successful{
+    color: green;
+    margin-left: 15px;
+}

@@ -10,6 +10,7 @@
 
 	<script src="js/jquery-1.12.4.min.js"  type="text/javascript"></script>
 	<script src="js/bootstrap.min.js"  type="text/javascript"></script>
+	<script src="js/contact.js"  type="text/javascript"></script>
 	
 
 
@@ -195,15 +196,19 @@
 		</div>
 		<form id="formQuestion" action="">
 			<div id="row_question">
-				<textarea  class="text" name="" id=""  placeholder="Do you have any question?"></textarea>
+				<textarea  class="text" name="question" id="question"  placeholder="Do you have any question?"></textarea>
 			</div>
 			<div id="row_email">
-				<input  class="text" type="text" placeholder="Your email">
+				<input  class="text" name="email" id="email" type="text" placeholder="Your email">
+			</div>
+			<div id="resultForm" class="error">
+				
 			</div>
 			<div id="row_btn_contact">
-				<button type="button" value="">Close</button>
-				<button type="submit" value="Submit">Send it!</button>
+				<!--<button type="button" value="" class="close-reveal-modal">Close</button>-->
+				<button id="btnSend" type="button" value="Submit">Send it!</button>
 			</div>
+			
 		</form>
 		<a class="close-reveal-modal">&#215;</a>
 	</div>
