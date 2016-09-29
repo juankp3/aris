@@ -163,13 +163,38 @@ section.home .content_pc{
     background: url(../img/pc.png) no-repeat;
 }
 
-
 .pc{
     width: 560px;
     height: 318px;
     margin: 0 auto;
     background: #000;
 }
+
+
+/*
+#slider{
+      width: 550px;
+          height: 310px;
+      overflow: hidden;
+    }
+#slider ul, #slider li,
+#slider2 ul, #slider2 li{
+  margin:0;
+  padding:0;
+  list-style:none;
+  }
+#slider li, #slider2 li{
+  width: 696px;
+      height: 318px;
+  overflow:hidden;
+}*/
+
+
+
+
+
+
+
 
 section.about{
   background: url("../img/about.jpg") no-repeat center top;
@@ -526,6 +551,10 @@ section.schedule #content_schedule textarea{
     float: right;
 }
 
+
+
+
+
 /* Contact */
 #row_head_contact{
    /width: 100%;
@@ -576,6 +605,9 @@ section.schedule #content_schedule textarea{
     height: 100px;
     padding:  10px 20px;
     border-bottom: solid 1px #0E70B7;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
 }
 #row_email input{
     width: 100%;

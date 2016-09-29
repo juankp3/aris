@@ -8,7 +8,7 @@ $( document ).ready(function() {
 			        scrollTop: $("."+id).offset().top
 			    }, 500);
 		}
-		
+
 	});
 
 	$("#accordion a").click(function(){
